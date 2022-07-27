@@ -10,15 +10,95 @@
     <!-- normalize -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-   <h1>About Page</h1>
-    
+    <!-- nav -->
+    <div class="navbar">
+      <div class="nav-center">
+        <!-- header  -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipe" />
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  end of nav -->
+
+    <!-- Main -->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>I'm baby coloring book poke taxidermy</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum magnam itaque voluptatum non aut ratione quis laudantium. Reprehenderit, qui consequatur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sapiente fugit voluptatum eos!</p>
+          <a href="contact.html" class="btn">Contact</a>
+        </article>
+        <img src="./assets/about.jpeg" alt="pouring salt" class="img about-img" />
+      </section>
+
+      <section class="feature-recipe">
+        <h5 class="featured-title">Look at this Awesomesouce</h5>
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipes -->
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-1.jpeg" alt="food" class="img recipe-img" />
+            <h5>Carne asada</h5>
+            <p>Prep : 15min | Cook: 5min</p>
+          </a>
+          <!-- end of single recipes -->
+          <!-- single recipes -->
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-2.jpeg" alt="food" class="img recipe-img" />
+            <h5>Greek ribs</h5>
+            <p>Prep : 15min | Cook: 5min</p>
+          </a>
+          <!-- end of single recipes -->
+          <!-- single recipes -->
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-3.jpeg" alt="food" class="img recipe-img" />
+            <h5>Vegetable soup</h5>
+            <p>Prep : 15min | Cook: 5min</p>
+          </a>
+          <!-- end of single recipes -->
+          <!-- single recipes -->
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-4.jpeg" alt="food" class="img recipe-img" />
+            <h5>Banana pancakes</h5>
+            <p>Prep : 15min | Cook: 5min</p>
+          </a>
+          <!-- end of single recipes -->
+        </div>
+        <!-- end of the recipes list -->
+      </section>
+    </main>
+    <!-- end of The Main -->
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <p>
+        &copy;
+        <span id="date"></span>
+        <span class="footer-logo">Simply Recipe</span>
+        Built by <a href="#">Ardhi Sasongko</a>
+      </p>
+    </footer>
+    <!-- End of Footer -->
   </body>
 </html>
