@@ -10,15 +10,146 @@
     <!-- normalize -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-   <h1>Single Recipe Page</h1>
-    
+    <!-- nav -->
+    <div class="navbar">
+      <div class="nav-center">
+        <!-- header  -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipe" />
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  end of nav -->
+
+    <!-- Main -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/recipe-4.jpeg" alt="pancakes" class="img recipe-hero-img" />
+          <article>
+            <h2>Banana Pancakes</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, veritatis ipsum velit recusandae neque asperiores soluta cumque! Odio, dolorem consequuntur deleniti architecto ipsa molestiae, quia blanditiis sed fugiat vitae
+              commodi!
+            </p>
+            <!-- Recipe Icons -->
+            <div class="recipe-icons">
+              <!-- Single recipe icons -->
+              <article>
+                <i class="fas fa-clock">
+                  <h5>prep time</h5>
+                  <p>30 min</p>
+                </i>
+              </article>
+              <!-- End of Single recipe icons -->
+
+              <!-- Single recipe icons -->
+              <article>
+                <i class="far fa-clock">
+                  <h5>cook time</h5>
+                  <p>50 min</p>
+                </i>
+              </article>
+              <!-- End of Single recipe icons -->
+
+              <!-- Single recipe icons -->
+              <article>
+                <i class="fas fa-user-friends">
+                  <h5>servings</h5>
+                  <p>6 servings</p>
+                </i>
+              </article>
+              <!-- End of Single recipe icons -->
+            </div>
+            <!-- End of the Recipe Icons -->
+
+            <!-- Recipe Tags -->
+            <div class="recipe-tags">
+              Tags : <a href="tag-template.html">Beef</a>
+              <a href="tag-template.html">Breakfast</a>
+              <a href="tag-template.html">Pancakes</a>
+              <a href="tag-template.html">Food</a>
+            </div>
+            <!-- End of Recipe Tags -->
+          </article>
+        </section>
+        <!-- Recipe Content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instruction</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 1</p>
+                <div></div>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum, ratione fuga quod veritatis illum!</p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>Step 2</p>
+                <div></div>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum, ratione fuga quod veritatis illum!</p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>Step 3</p>
+                <div></div>
+              </header>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum, ratione fuga quod veritatis illum!</p>
+            </div>
+            <!-- end of the single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>Ingredients</h4>
+              <p class="single-ingredient">1 1/2 cups dry pancake mix</p>
+              <p class="single-ingredient">1 1/2 cup flax seed meal</p>
+              <p class="single-ingredient">1 cup skim milk</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Hand Blender</p>
+              <p class="single-tool">Large heavy Pot with Lid</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Measuring Cups</p>
+            </div>
+          </article>
+        </section>
+        <!-- End of Recipe Content -->
+      </div>
+    </main>
+    <!-- end of the Main -->
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <p>
+        &copy;
+        <span id="date"></span>
+        <span class="footer-logo">Simply Recipe</span>
+        Built by <a href="#">Ardhi Sasongko</a>
+      </p>
+    </footer>
+    <!-- End of Footer -->
   </body>
 </html>
